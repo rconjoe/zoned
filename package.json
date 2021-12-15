@@ -1,0 +1,32 @@
+{
+  "name": "zoned",
+  "version": "0.0.1",
+  "description": "A Node.js timezone localizer for client side SPA's. Built with dayjs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rconjoe/zoned.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "timezone",
+    "local",
+    "localize"
+  ],
+  "author": "Joe Carlton <joe@rconjoe.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rconjoe/zoned/issues"
+  },
+  "homepage": "https://github.com/rconjoe/zoned#readme",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "typescript": "^4.5.4"
+  }
+}
