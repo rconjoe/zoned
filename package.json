@@ -1,7 +1,7 @@
 {
   "name": "zoned",
   "version": "0.0.2",
-  "description": "A clientside date-time localizer for Javascript SPA's*",
+  "description": "Easily generate timezone-correct strings from UTC timestamps.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
