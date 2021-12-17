@@ -1,5 +1,3 @@
-import dayjs from 'dayjs'
-
 export default class {
 
   public toJsDate(seconds: number): Date {
