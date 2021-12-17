@@ -12,14 +12,19 @@ export interface ZonedOptions {
    */
   format?: number;
 
+  /**
+   * Boolean that controls whether the seconds units are JS, vs. default Unix. 
+   */
+  javascriptSeconds?: boolean;
+
 }
 
-export enum Format {
+export enum FormatString {
 
   /**
    * 8:02 PM
    */
-  'h:mm A', 
+  'h:mm A' = 1,
 
   /**
    * 8:02:18 PM
