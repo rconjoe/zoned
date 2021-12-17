@@ -11,7 +11,7 @@ Instantiate as a class with options. All parameters are optional and have sane d
 
 **Timezone:** You can supply a timezone if you store them for your users. Otherwise, dayjs will guess the timezone. It is generally very good at this, but obviously requires this library be used in a clientside app, otherwise you will be using the timezone of your server (unless specified).
 
-**Format:** Defaults to format 6, `'August 16, 2018, 8:02 PM'`. Lets you pass a number instead of having to correctly input formatting strings. Available formats:
+**Format:** Defaults to format 6, `'Thursday, August 16, 2018, 8:02 PM'`. Lets you pass a number instead of having to correctly input formatting strings. Available formats:
 | Options Value | Format                            |
 |---------------|-----------------------------------|
 | 1             | 8:02 PM                           |
