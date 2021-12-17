@@ -1,19 +1,28 @@
 import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+import timezone from 'dayjs/plugin/timezone'
+
 import {
-  Format
+  FormatString
 } from '../types'
+
+dayjs.extend(utc)
+dayjs.extend(timezone)
 
 export default class {
 
-  public format: string;
+  private format: string;
+  private timezone: string;
 
-  constructor(formatOption?: number) {
-    const formatOptionNumber = formatOption ? formatOption : 5
-    this.format = Format[formatOptionNumber]
+  constructor(formatOption?: number, timezone?: string) {
+    const formatOptionNumber: number = formatOption ? formatOption : 6
+    this.format = FormatString[formatOptionNumber]
+    this.timezone = timezone ? timezone : dayjs.tz.guess()
   }
 
-  // public fromUnix(seconds: number): string {
-  //   const js = new Date(seconds * 1000)
-  // }
+  public date(date: Date): string {
+    console.log(`\n${this.format}:${this.timezone}`)
+    return dayjs(date).tz(this.timezone).format(this.format)
+  }
 
 }
