@@ -1,0 +1,41 @@
+{
+  "name": "zoned",
+  "version": "0.0.1",
+  "description": "A clientside date-time localizer for Javascript SPA's*",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rconjoe/zoned.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "timezone",
+    "local",
+    "localize"
+  ],
+  "author": "Joe Carlton <joe@rconjoe.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rconjoe/zoned/issues"
+  },
+  "homepage": "https://github.com/rconjoe/zoned#readme",
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
