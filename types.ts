@@ -1,4 +1,4 @@
-export interface ZonerOptions {
+export interface ZonedOptions {
 
   /**
    * Allows you to specify a timezone for this instance, e.g. if you already store
@@ -10,7 +10,7 @@ export interface ZonerOptions {
   /**
    * Date format which all non-specified conversion outputs will default to.
    */
-  format?: Format;
+  format?: number;
 
 }
 
