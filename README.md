@@ -1,4 +1,7 @@
 # Zoned
+---
+**NOTE:** Don't use this. I had no idea what I was doing. The concept has some nice utility so I might visit a project like this again.
+---
 *Easily generate timezone-correct strings from UTC timestamps.*
 ## Installation
 ```js
