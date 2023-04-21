@@ -1,7 +1,7 @@
 # Zoned
 *Easily generate timezone-correct strings from UTC timestamps.*
 
-**NOTE:** Probably don't use this. I had no idea what I was doing. The concept has some nice utility, so I might rewrite this someday.
+**NOTE:** Don't use this. It was never made for production. I used it to get a feel for TS Enums in practice. The concept has some nice utility, so I might rewrite this someday.
 ---
 
 ## Installation
